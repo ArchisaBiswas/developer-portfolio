@@ -42,11 +42,24 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 style={{ backgroundColor: theme.primary400 }}
             >
                 <div className='projectContent'>
-                    <h2
+                    {/* <h2
                         id={name.replace(' ', '-').toLowerCase()}
                         style={{ color: theme.tertiary }}
                     >
                         {name}
+                    </h2> */}
+                    <h2
+                        id={name.replace(' ', '-').toLowerCase()}
+                        style={{ color: theme.tertiary }}
+                    >
+                        {name.includes('(Ongoing)') ? (
+                            <>
+                                {name.replace(' (Ongoing)', '')}
+                                <em> (Ongoing)</em>
+                            </>
+                        ) : (
+                            name
+                        )}
                     </h2>
                     <img src={image ? image : placeholder} alt={name} />
                     <div className='project--showcaseBtn'>
@@ -69,7 +82,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 aria-label='Demo'
                             />
                         </a>
-                        <a
+                        {/* <a
                             href={code}
                             target='_blank'
                             rel='noreferrer'
@@ -87,7 +100,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 className={classes.icon}
                                 aria-label='Code'
                             />
-                        </a>
+                        </a> */}
                     </div>
                 </div>
                 <p

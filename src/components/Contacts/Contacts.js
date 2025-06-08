@@ -167,11 +167,11 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact Me On</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
-                            <div className='input-container'>
+                            {/* <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
                                 </label>
@@ -183,8 +183,8 @@ function Contacts() {
                                     name='Name'
                                     className={`form-input ${classes.input}`}
                                 />
-                            </div>
-                            <div className='input-container'>
+                            </div> */}
+                            {/* <div className='input-container'>
                                 <label
                                     htmlFor='Email'
                                     className={classes.label}
@@ -199,8 +199,8 @@ function Contacts() {
                                     name='Email'
                                     className={`form-input ${classes.input}`}
                                 />
-                            </div>
-                            <div className='input-container'>
+                            </div> */}
+                            {/* <div className='input-container'>
                                 <label
                                     htmlFor='Message'
                                     className={classes.label}
@@ -215,9 +215,9 @@ function Contacts() {
                                     name='Message'
                                     className={`form-message ${classes.message}`}
                                 />
-                            </div>
+                            </div> */}
 
-                            <div className='submit-btn'>
+                            {/* <div className='submit-btn'>
                                 <button
                                     type='submit'
                                     className={classes.submitBtn}
@@ -246,7 +246,7 @@ function Contacts() {
                                         />
                                     </div>
                                 </button>
-                            </div>
+                            </div> */}
                         </form>
                         <Snackbar
                             anchorOrigin={{
@@ -304,15 +304,15 @@ function Contacts() {
                             </p>
                         </a>
                         <div className='personal-details'>
-                            <div className={classes.detailsIcon}>
+                            {/* <div className={classes.detailsIcon}>
                                 <HiOutlineLocationMarker />
                             </div>
-                            <p style={{ color: theme.tertiary }}>
+                            {/* <p style={{ color: theme.tertiary }}>
                                 {contactsData.address}
-                            </p>
+                            </p> */} 
                         </div>
 
-                        <div className='socialmedia-icons'>
+                        {/* <div className='socialmedia-icons'>
                             {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
@@ -423,7 +423,7 @@ function Contacts() {
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

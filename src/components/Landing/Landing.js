@@ -77,7 +77,7 @@ function Landing() {
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
                             <a
-                                href={socialsData.linkedIn}
+                                href={"https://www.linkedin.com/in/archisa-biswas-709ab9277/"}
                                 target='_blank'
                                 rel='noreferrer'
                             >
@@ -88,7 +88,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.github && (
+                        {/* {socialsData.github && (
                             <a
                                 href={socialsData.github}
                                 target='_blank'
@@ -100,8 +100,8 @@ function Landing() {
                                     aria-label='GitHub'
                                 />
                             </a>
-                        )}
-                        {socialsData.twitter && (
+                        )} */}
+                        {/* {socialsData.twitter && (
                             <a
                                 href={socialsData.twitter}
                                 target='_blank'
@@ -113,8 +113,8 @@ function Landing() {
                                     aria-label='Twitter'
                                 />
                             </a>
-                        )}
-                        {socialsData.youtube && (
+                        )} */}
+                        {/* {socialsData.youtube && (
                             <a
                                 href={socialsData.youtube}
                                 target='_blank'
@@ -126,8 +126,8 @@ function Landing() {
                                     aria-label='YouTube'
                                 />
                             </a>
-                        )}
-                        {socialsData.blogger && (
+                        )} */}
+                        {/* {socialsData.blogger && (
                             <a
                                 href={socialsData.blogger}
                                 target='_blank'
@@ -139,7 +139,7 @@ function Landing() {
                                     aria-label='Blogger'
                                 />
                             </a>
-                        )}
+                        )} */}
                     </div>
                 </div>
                 <img
@@ -159,20 +159,20 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
+                        {/* <h6>{headerData.title}</h6> */}
                         <h1>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
                                 <a
-                                    href={headerData.resumePdf}
+                                    href={"https://journals.christuniversity.in/index.php/mapana/article/view/6186"}
                                     download='resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Publication
                                     </Button>
                                 </a>
                             )}

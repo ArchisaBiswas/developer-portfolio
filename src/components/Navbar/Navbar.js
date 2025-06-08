@@ -133,9 +133,9 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='navbar--container'>
-                <h1 style={{ color: theme.secondary }}>
+                {/* <h1 style={{ color: theme.secondary }}>
                     {shortname(headerData.name)}
-                </h1>
+                </h1> */}
 
                 <IoMenuSharp
                     className={classes.navMenu}
@@ -196,7 +196,7 @@ function Navbar() {
                         </Fade>
 
                         <Fade left>
-                            <NavLink
+                            {/* <NavLink
                                 to='/#about'
                                 smooth={true}
                                 spy='true'
@@ -208,12 +208,12 @@ function Navbar() {
                                         About
                                     </span>
                                 </div>
-                            </NavLink>
+                            </NavLink> */}
                         </Fade>
 
                         <Fade left>
                             <NavLink
-                                to='/#resume'
+                                to='/#education'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -223,7 +223,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        Education
                                     </span>
                                 </div>
                             </NavLink>
@@ -231,7 +231,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#services'
+                                to='/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -241,14 +241,14 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Services
+                                        Projects
                                     </span>
                                 </div>
                             </NavLink>
                         </Fade>
 
                         <Fade left>
-                            <NavLink
+                            {/* <NavLink
                                 to='/#blog'
                                 smooth={true}
                                 spy='true'
@@ -262,7 +262,7 @@ function Navbar() {
                                         Blog
                                     </span>
                                 </div>
-                            </NavLink>
+                            </NavLink> */}
                         </Fade>
 
                         <Fade left>
